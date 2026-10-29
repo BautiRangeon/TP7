@@ -1,0 +1,35 @@
+.header {
+  background: linear-gradient(90deg, #1e3a8a, #2563eb);
+  color: white;
+  padding: 25px;
+  position: relative;
+  text-align: center;
+}
+
+.logo {
+  position: absolute;
+  left: 25px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 60px;
+  height: auto;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 15px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+.menu a:hover {
+  background-color: white;
+  color: #2563eb;
+}
