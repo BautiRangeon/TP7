@@ -7,7 +7,7 @@ function Header() {
     <header className="header">
       <img src={logo} alt="Logo" className="logo" />
 
-      <h2>Trabajo Práctico N°4</h2>
+      <h2>Trabajo Práctico N°7</h2>
 
       <nav className="menu">
         <NavLink to="/">Inicio</NavLink>
